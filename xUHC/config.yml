@@ -1,0 +1,17 @@
+# CONFIG
+# %player% will be replaced with name of the player being tracked
+
+enable:
+  bossbarmsg: "&aCompass tracking &6%player%&a!"
+  chatmsg: "&aCompass enabled!"
+disable:
+  bossbarmsg: "&4Compass disabled!"
+  chatmsg: "&4Compass disabled!"
+
+# How often, on average, should compasses be activated? (in seconds)
+frequency: 180
+# How many seconds should the compass stay active for?
+length: 10
+
+# Sound to play on player death (WIP)
+deathsound: WITHER_DEATH

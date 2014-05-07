@@ -1,0 +1,20 @@
+name: xUHC
+main: com.pgcraft.xuhc.UHC
+version: '1.0'
+description: "Adds death sounds and compass player locators to the game!"
+author: pgmann
+commands:
+  ct:
+    description: 'Manage the compass tracker'
+    usage: 'Error!'
+    permission: xuhc.ct
+    aliases: []
+permissions:
+  xuhc.*:
+    description: Allows access to all admin commands for this plugin
+    children:
+      xuhc.ct: true
+    default: op
+  xuhc.ct:
+    description: Permission to manage the compass tracker
+    default: op
