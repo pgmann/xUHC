@@ -19,7 +19,7 @@ public class UHCListener implements Listener {
 	@EventHandler
 	public void onPlayerDeath(PlayerDeathEvent event) {
 		for (Player target : plugin.getServer().getOnlinePlayers()) {
-			target.playSound(target.getLocation(), Sound.WITHER_DEATH, 1F, 1F);
+			target.playSound(target.getLocation(), Sound.WITHER_HURT, 2, 0);
 		}
 	}
 }
